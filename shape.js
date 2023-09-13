@@ -20,7 +20,7 @@ public class Shape {
 
     void setShape(Tetrominoe shape) {
 
-        int[][][] coordsTable = new int[][][]{
+         int[][][] coordsTable = new int[][][]{
                 {{0, 0}, {0, 0}, {0, 0}, {0, 0}},
                 {{0, -1}, {0, 0}, {-1, 0}, {-1, 1}},
                 {{0, -1}, {0, 0}, {1, 0}, {1, 1}},
