@@ -29,7 +29,7 @@ public class Shape {
                 {{0, 0}, {1, 0}, {0, 1}, {1, 1}},
                 {{-1, -1}, {0, -1}, {0, 0}, {0, 1}},
                 {{1, -1}, {0, -1}, {0, 0}, {0, 1}}
-        };
+         };
 
         for (int i = 0; i < 4; i++) {
 
@@ -64,7 +64,7 @@ public class Shape {
         return pieceShape;
     }
 
-    void setRandomShape() {
+     void setRandomShape() {
 
         var r = new Random();
         int x = Math.abs(r.nextInt()) % 7 + 1;
