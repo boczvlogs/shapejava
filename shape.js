@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class Shape {
 
-    protected enum Tetrominoe {
+     protected enum Tetrominoe {
         NoShape, ZShape, SShape, LineShape,
         TShape, SquareShape, LShape, MirroredLShape
     }
