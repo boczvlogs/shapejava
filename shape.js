@@ -9,7 +9,6 @@ public class Shape {
         TShape, SquareShape, LShape, MirroredLShape
     }
 
-
     private Tetrominoe pieceShape;
     private int[][] coords;
 
