@@ -114,7 +114,7 @@ public class Shape {
             result.setY(i, -x(i));
         }
 
-        return result;
+        return result; 
     }
 
     Shape rotateRight() {
