@@ -10,7 +10,7 @@ def shape_game():
     secret_shape = random.choice(shapes)
 
     attempts = 0
- 
+  
     while True:
         # Get player's guess
         guess = input("Enter your guess (circle, square, triangle, rectangle): ").lower()
